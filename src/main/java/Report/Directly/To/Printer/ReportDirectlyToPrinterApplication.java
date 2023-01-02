@@ -1,4 +1,4 @@
-package com.example.Report.Directly.To.Printer;
+package Report.Directly.To.Printer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
