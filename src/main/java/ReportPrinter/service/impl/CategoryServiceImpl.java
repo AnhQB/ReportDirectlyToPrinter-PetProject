@@ -1,4 +1,4 @@
-package service.impl;
+package ReportPrinter.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,10 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mybatis.dao.CategoryDao;
-import mybatis.model.Category;
-import service.CategoryService;
+import ReportPrinter.mybatis.dao.CategoryDao;
+import ReportPrinter.mybatis.model.Category;
+import ReportPrinter.service.CategoryService;
+
 
 
 @Service

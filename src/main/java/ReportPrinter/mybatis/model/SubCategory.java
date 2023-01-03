@@ -1,4 +1,4 @@
-package mybatis.model;
+package ReportPrinter.mybatis.model;
 
 public class SubCategory {
 	private int id;

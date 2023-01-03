@@ -1,9 +1,10 @@
-package service;
+package ReportPrinter.service;
 
 import java.util.List;
 import java.util.Map;
 
-import mybatis.model.Category;
+import ReportPrinter.mybatis.model.Category;
+
 
 
 public interface CategoryService {

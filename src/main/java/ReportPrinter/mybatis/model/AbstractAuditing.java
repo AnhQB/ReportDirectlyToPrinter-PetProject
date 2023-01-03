@@ -1,4 +1,4 @@
-package mybatis.model;
+package ReportPrinter.mybatis.model;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;

@@ -1,4 +1,4 @@
-package service.impl;
+package ReportPrinter.service.impl;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -11,10 +11,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import mybatis.dao.ProductDao;
-import mybatis.dto.ProductDTO;
-import mybatis.model.Product;
-import service.ProductService;
+import ReportPrinter.mybatis.dao.ProductDao;
+import ReportPrinter.mybatis.dto.ProductDTO;
+import ReportPrinter.mybatis.model.Product;
+import ReportPrinter.service.ProductService;
+
 
 
 @Service
@@ -84,6 +85,7 @@ public class ProductServiceImpl implements ProductService {
 		
 		return lstProductDTO;
 	}
+
 
 
 }

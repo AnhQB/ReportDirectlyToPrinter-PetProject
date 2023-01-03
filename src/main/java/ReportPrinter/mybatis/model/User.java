@@ -1,4 +1,4 @@
-package mybatis.model;
+package ReportPrinter.mybatis.model;
 
 public class User extends AbstractAuditing{
 	private int id;
